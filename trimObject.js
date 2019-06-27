@@ -9,3 +9,17 @@ function tirmObject(obj) {
 
   return result;
 }
+
+/*
+  const parms = {
+    name: 'w',
+    value: 24,
+    city: 'beijing',
+    male: undefined
+  };
+
+  tirmObject(parms);
+
+  => [name:'w', value:24, city:'beijing']
+
+ */
