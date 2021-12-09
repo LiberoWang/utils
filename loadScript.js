@@ -8,7 +8,7 @@ export default function loadScript(url) {
   if (script) {
     return Promise.resolve(url)
   }
-
+  // script有onload方法，监听是否加载完毕
   return new Promise((resolve, reject) => {
     const script = document.createElement('script');
     script.addEventListener('load', () => resolve(url), false);
